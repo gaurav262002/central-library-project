@@ -1,5 +1,6 @@
 # central-library-project
 Python version : 3.7
+
 Libraries Required: dlib,numpy,face recognition,open cv2,csv
 
 ImagesBasic and Basic.py files are used to demonstrate how the face recognition library works.
