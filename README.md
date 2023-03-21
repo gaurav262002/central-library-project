@@ -5,6 +5,8 @@ The Face Recognition Attendance System is a Python-based application designed to
 
 * Add the images of students in the ImagesAttendance folder named after their names or Roll Number beforehand.
 
+* basics.py and ImagesBasic folder is used to demonstrate the working of the face-recognition library.
+
 ## Running the code
 
 To run the code, make sure you have the required dependencies installed. You can install them by running:
