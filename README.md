@@ -1,18 +1,38 @@
-# central-library-project
-Python version : 3.7
 
-Libraries Required: dlib,numpy,face recognition,open cv2,csv
+# Face Recognition Attendance System
 
-ImagesBasic and Basic.py files are used to demonstrate how the face recognition library works.
+The Face Recognition Attendance System is a Python-based application designed to automate attendance tracking using Facial Recognition Technology. The system captures a live image of the student's face, recognizes the face using the face recognition library, and records the entry and exit time of the student in a CSV file.
 
+* Add the images of students in the ImagesAttendance folder named after their names or Roll Number beforehand.
 
-ImagesAttendence folder contains the images of students named after their name.
-Attendance.py is the main code file.
+## Running the code
 
-Description:
-1)Face recognition library is used to find the ecodings of all the images in ImagesAttendance folder beforehand.
-2)Open cv is used to capture the live image of the student's face and it is recognized using the face recognition library.
-3)Encoding of recognized face is then compared with the encodings.
-4)Once the match is found Entry of students name, Entry time and exit time is done in a csv file. 
+To run the code, make sure you have the required dependencies installed. You can install them by running:
 
+```bash
+  pip install -r requirements.txt
+```
 
+## Dependencies
+
+The code has the following dependencies:
+
+* python 3.7
+
+* dlib
+
+* numpy
+
+* face recognition
+
+* OpenCV2
+
+* csv
+
+Then run the main script using:
+```bash
+python AttendanceProject.py
+```
+    
+## References
+https://www.youtube.com/watch?v=sz25xxF_AVE&list=PPSV
